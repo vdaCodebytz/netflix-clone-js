@@ -99,8 +99,7 @@ i {
 }
 
 .hero-content-left h1 {
-  font-size: 7rem;
-  letter-spacing: 7px;
+  font-size: 6rem;
   font-family: "Fragment Mono", monospace;
 }
 
@@ -169,10 +168,23 @@ i {
 }
 
 .card {
-  width: 16vw;
+  width: 14vw;
   height: 10vw;
   background-color: red;
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-repeat: no-repeat;
+
+  object-fit: contain;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-info {
+  color: aliceblue;
+  display: none;
 }
 
 .card:hover {
